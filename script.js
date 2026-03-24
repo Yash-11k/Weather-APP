@@ -1,11 +1,11 @@
-// 🔥 Function to get weather
+//  Function to get weather
 function getWeather() {
 
   // Step 1: input se city lena
   let city = document.getElementById("searchBox").value;
 
   // Step 2: API URL
-  let apiKey = "37e06f6d8339ff25823e83322a2c39f2"; // 👈 yaha apni API key daal
+  let apiKey = "37e06f6d8339ff25823e83322a2c39f2"; 
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   // Step 3: fetch call
